@@ -128,6 +128,9 @@
 /sys/devices/platform/soc/a94000\.i2c/i2c-2/2-0049/double_click    u:object_r:vendor_sysfs_touchpanel:s0
 /sys/devices/platform/soc/a94000\.i2c/i2c-2/2-0049/single_click    u:object_r:vendor_sysfs_touchpanel:s0
 
+# Double Tap
+/sys/devices/virtual/touchscreen/primary/double_tap_enabled        u:object_r:vendor_sysfs_touchpanel:s0
+
 # Vendor init scripts
 /vendor/bin/init\.mmi\.acdb\.sh                    u:object_r:vendor_init_hw_exec:s0
 /vendor/bin/init\.mmi\.boot\.sh                    u:object_r:vendor_mmi_boot_exec:s0
